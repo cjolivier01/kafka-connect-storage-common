@@ -15,6 +15,7 @@
 
 package io.confluent.connect.storage;
 
+//CHECKSTYLE:OFF
 /**
  *    This class is added as a workaround to maven. Attempting to run both verify and install phases
  *    with maven fails if there's no source code in the project (the produced jar is empty).  
@@ -24,5 +25,6 @@ package io.confluent.connect.storage;
  *    by configuring a filter for maven-shade-plugin.
  * </p>
  */
+//CHECKSTYLE:ON
 public class PlaceHolder {
 }

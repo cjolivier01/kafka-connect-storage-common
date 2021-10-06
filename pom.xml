@@ -22,7 +22,7 @@
         <groupId>io.confluent</groupId>
         <artifactId>common</artifactId>
         <version>7.1.0-0</version>
-        <relativePath>../common</relativePath>
+        <relativePath>../common/parent</relativePath>
     </parent>
 
     <artifactId>kafka-connect-storage-common-parent</artifactId>
@@ -278,7 +278,7 @@
                     <showWarnings>true</showWarnings>
                     <compilerArgs>
                         <arg>-Xlint:-processing</arg>
-                        <arg>-Werror</arg>
+<!--                        <arg>-Werror</arg>-->
                     </compilerArgs>
                 </configuration>
             </plugin>
